@@ -1,0 +1,86 @@
+.icon-alone {
+    height: 30px;
+
+}
+.search-bar {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    height: 34px;
+    padding: 10px;
+}
+.top-header {
+    width: 100%;
+    display: flex;
+    padding: 8px;
+}
+a {
+    color: #FFF;
+    font-size: large;
+}
+.btn-home {
+    width: 17%;
+    text-align: end;
+    padding-right: 25px;
+    padding-top: 3px;
+}
+.txt-search {
+    width: 35%;
+    display: flex;
+    background-color: #FFF;
+    border-radius: 3px;
+    border-color: blanchedalmond;
+}
+.btn-login {
+    width: 10%;
+    text-align: center;
+    padding: 5px;
+}
+
+.btn-more {
+    width: 10%;
+    text-align: center;
+    padding: 5px;
+    color: #FFF;
+    font-size: large;
+}
+.dropdown{
+    color: #FFF;
+    background-color: #2874f0;
+}
+.btn {
+    
+    color: #FFF;
+    background-color: #2874f0;
+    font-size: large;
+    padding: 0;
+}
+
+.dropdown :hover{
+
+    color:black
+}
+
+.btn-cart {
+    width: 10%;
+    text-align: center;
+    padding: 5px;
+}
+.btn txt-button{
+    float: right;
+}
+.seconddiv-header{
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    list-style: none;
+    font-weight: 80;
+    color:black;
+}
+.active:hover {
+    display: block;
+    position: absolute;
+    background-color:black;
+    margin-top: 15px;
+    margin-left: -15px;
+}

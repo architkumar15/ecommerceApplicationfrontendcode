@@ -1,0 +1,8 @@
+.td-buttons {
+    background: none;
+    border: none;
+    font-size: large;
+}
+.td-buttons::after {
+    border: none;
+}

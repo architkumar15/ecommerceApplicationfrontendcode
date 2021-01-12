@@ -1,0 +1,44 @@
+<div>
+    <table class="table table-striped">
+        <thead>
+                <tr  *ngFor="let data of company ">
+                    <td>{{data.companyId}}</td>
+                    <td>{{data.companyName}}</td>
+                    <td>{{data.comanyAddress}}</td>
+                    <td>{{data.compnyTitle}}</td>
+                    <td>{{data.ownerName}}</td>
+                    <td>{{data.Mobile}}</td>
+                    <td>{{data.Email}}</td>
+                    <td>{{data.Type}}</td>
+                    <td><button (click)="getcompanyById(data.companyId)" type="button" class="td-buttons" style="background-color: #428bca; color: white; border:none;">View company</button></td>
+                </tr>
+                <tr>
+                <td><button  (click)="addCompany()" type="button" class="td-buttons"  style="background-color: #428bca; color: white; border:none;">Add company</button></td>
+            </tr>
+                <td><button   (click)="updateCompany()" type="button" class="td-buttons" style="background-color: #428bca; color: white; border:none;">Update company</button></td>
+                <td><button type="button" class="td-buttons"  style="background-color: #428bca; color: white; border:none;">Delete company</button></td>
+        </thead>
+    </table>
+</div>
+
+<div>
+<form *ngIf="showForm" style="padding: 20px;" [formGroup]="newCompanyForm" (ngSubmit)="submitData()">
+    <label for="fname">company Id</label><br>
+    <input type="text" name="CId" value="" formControlName="companyId"><br>
+    <label for="fname">company name</label><br>
+    <input type="text" name="Cname" value="" formControlName="companyName"><br>
+    <label for="lname">Address</label><br>
+    <input type="text" value=""  formControlName="companyAddress"><br>
+    <label for="fname">company title</label><br>
+    <input type="text" name="Cname" value=""  formControlName="companyTitle"><br>
+    <label for="fname">Owner name</label><br>
+    <input type="text" name="owner" value=""  formControlName="companyOwner"><br>
+    <label for="fname">Mobile no</label><br>
+    <input type="text" name="Mobile" value=""  formControlName="companyMobile"><br>
+    <label for="fname">Email</label><br>
+    <input type="text" name="CId" value="" formControlName="companyEmail"><br>
+    <label for="fname">Type</label><br>
+    <input type="text" name="CId" value="" formControlName="companyType"><br><br>  
+    <input type="submit" value="Submit" style="background-color: #428bca; color: white; border:none;">
+  </form> 
+</div>

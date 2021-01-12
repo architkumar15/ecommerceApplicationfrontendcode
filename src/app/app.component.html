@@ -1,0 +1,11 @@
+<div class="main-header back">
+  <app-header></app-header>
+  </div>
+<br>
+<div class="main-body imageset "  >
+  <router-outlet></router-outlet>
+</div>
+<br>
+<div class="main-footer" *ngIf="!iscart">
+  <app-footer></app-footer>
+</div>

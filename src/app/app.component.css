@@ -1,0 +1,28 @@
+.main-header {
+    min-height: 80px;
+    border-bottom: 1px solid #2874f0;
+    
+}
+
+.main-body{
+    height:866px;
+    
+}
+.main-footer{
+    
+  width: 100%;
+  margin-top: auto;
+  padding:10px;
+    
+    
+
+}
+.back{
+    background-color: #2874f0;
+}
+
+.imageset{
+    width: 1335px;
+    height: 1000px;
+}
+
